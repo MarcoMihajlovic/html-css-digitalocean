@@ -22,6 +22,18 @@
 .grey {
   background-color: lightgray;
 }
+
+.lightblue {
+  background-color: dodgerblue;
+}
+
+.padding-right-0 {
+  padding-right: 0;
+}
+
+.padding-left-0 {
+  padding-left: 0;
+}
 /* Fine Utility */
 
 .my-header-nav {
@@ -44,11 +56,21 @@
   text-align: left;
 }
 
-.my-regions {
-  background-color: dodgerblue;
+.row .half {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#logos [class*='col-'] {
+  margin-bottom: 20px;
+}
+
+#features [class*='col-'] {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 992px) {
+
   .padding-right-none {
     padding-right: 0;
   }
@@ -62,9 +84,16 @@
     margin: 0 auto;
   }
 
-  .row .half {
-    width: 50%;
-    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .padding-right-none {
+    padding-right: 0;
+  }
+
+  .padding-left-none {
+    padding-left: 0;
   }
 }
 
