@@ -44,6 +44,9 @@
   text-align: left;
 }
 
+.my-regions {
+  background-color: dodgerblue;
+}
 
 @media screen and (min-width: 992px) {
   .padding-right-none {
