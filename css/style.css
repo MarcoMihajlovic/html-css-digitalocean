@@ -69,6 +69,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: hsl(215deg 100% 50%);
+}
 /* Header-Nav */
 .my-header-nav {
   position: fixed;
@@ -283,6 +287,7 @@ font-size: 60px;
     border-bottom: 1px solid white;
 }
 
+/* Footer Top */
 .my-footer-top h1 {
   color: white;
   font-weight: 900;
@@ -290,6 +295,36 @@ font-size: 60px;
 }
 
 .my-footer-top button {
+  color: hsl(215deg 100% 50%);
+}
+
+.my-footer-bottom p {
+  margin-top: 10px;
+  color: hsl(222deg 15% 67%);
+}
+
+/* Footer-Bottom */
+.my-footer-bottom ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.my-social li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.my-footer-bottom a {
+  color: hsl(222deg 15% 67%);
+}
+
+.my-footer-bottom h3 {
+  color: white;
+}
+
+.my-footer-bottom a:hover {
+  text-decoration: underline;
   color: hsl(215deg 100% 50%);
 }
 
@@ -364,6 +399,10 @@ font-size: 60px;
 
   .padding-top-md {
     padding-top: 30px;
+  }
+
+  .my-footer-bottom li {
+    font-size: 12px;
   }
 
 }
