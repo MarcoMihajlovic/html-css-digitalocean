@@ -43,6 +43,10 @@
   background-color: hsl(221deg 100% 36%);
 }
 
+.darkblue {
+  background-color: hsl(220deg 93% 16%);
+}
+
 .padding-right-0 {
   padding-right: 0;
 }
@@ -277,6 +281,16 @@ font-size: 60px;
 
 #regions .row:not(:last-child) {
     border-bottom: 1px solid white;
+}
+
+.my-footer-top h1 {
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.my-footer-top button {
+  color: hsl(215deg 100% 50%);
 }
 
 /* Desktop */
