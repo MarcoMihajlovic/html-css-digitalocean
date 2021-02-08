@@ -190,13 +190,19 @@ font-size: 60px;
 }
 
 
-.my-cluster-main {
-  text-align: left;
+.my-cluster-main p {
+  color: hsl(220deg 16% 48%);
 }
 
-.row .half {
-  width: 50%;
-  margin: 0 auto;
+.my-cluster-main h4 {
+  color: hsl(220deg 16% 48%);
+  border-left: 5px solid hsl(220deg 16% 48%);
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.my-cluster-main .cluster-container h5 {
+  color: black;
 }
 
 #features [class*='col-'] {
@@ -264,6 +270,11 @@ font-size: 60px;
     background-position: center;
     overflow: hidden;
     background-repeat: no-repeat;
+  }
+
+  .row .half {
+    width: 50%;
+    margin: 0 auto;
   }
 
 }
