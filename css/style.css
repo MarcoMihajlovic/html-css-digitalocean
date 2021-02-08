@@ -232,6 +232,10 @@ font-size: 60px;
 #features [class*='col-'] {
   margin-bottom: 20px;
 }
+
+#features p {
+  color: hsl(220deg 16% 48%);
+}
 /* Desktop */
 @media screen and (min-width: 992px) {
 
