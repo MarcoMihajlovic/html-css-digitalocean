@@ -95,7 +95,7 @@ a {
 }
 
 .my-jumbotron h1 {
-font-size: 60px; 
+font-size: 60px;
 }
 
 .my-jumbotron p {
@@ -105,7 +105,6 @@ font-size: 60px;
 .google-login {
   background-color: white;
   color: black;
-  text-align: center;
 }
 
 .google-login-content {
@@ -128,6 +127,69 @@ font-size: 60px;
   margin-bottom: 5px;
 }
 
+/* Logos */
+#logos {
+  background-color: hsl(220deg 33% 96%);
+}
+
+#logos [class*='col-'] {
+  margin-bottom: 20px;
+}
+
+#logos img{
+  width: 100%;
+  max-height: 30px;
+}
+
+.logo-1 {
+  background-image: url('../img/docker.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-2 {
+  background-image: url('../img/GitLab.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-3 {
+  background-image: url('../img/slack.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-4 {
+  background-image: url('../img/hashicorp.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-5 {
+  background-image: url('../img/wework.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-6 {
+  background-image: url('../img/splunk.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+
 .my-cluster-main {
   text-align: left;
 }
@@ -137,14 +199,10 @@ font-size: 60px;
   margin: 0 auto;
 }
 
-#logos [class*='col-'] {
-  margin-bottom: 20px;
-}
-
 #features [class*='col-'] {
   margin-bottom: 20px;
 }
-
+/* Desktop */
 @media screen and (min-width: 992px) {
 
   .padding-right-none {
@@ -160,8 +218,56 @@ font-size: 60px;
     margin: 0 auto;
   }
 
-}
+  .logo-1 {
+    background-image: url('../img/docker.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
 
+  .logo-2 {
+    background-image: url('../img/GitLab.svg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-3 {
+    background-image: url('../img/slack.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-4 {
+    background-image: url('../img/hashicorp.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-5 {
+    background-image: url('../img/wework.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-6 {
+    background-image: url('../img/splunk.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+}
+/* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
   .padding-right-none {
@@ -171,13 +277,111 @@ font-size: 60px;
   .padding-left-none {
     padding-left: 0;
   }
+
+  .logo-1 {
+    background-image: url('../img/docker.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-2 {
+    background-image: url('../img/GitLab.svg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-3 {
+    background-image: url('../img/slack.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-4 {
+    background-image: url('../img/hashicorp.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-5 {
+    background-image: url('../img/wework.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-6 {
+    background-image: url('../img/splunk.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+}
+/* Phone */
+@media screen and (max-width: 767) {
+  .logo-1 {
+    background-image: url('../img/docker.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-2 {
+    background-image: url('../img/GitLab.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-3 {
+    background-image: url('../img/slack.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-4 {
+    background-image: url('../img/hashicorp.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-5 {
+    background-image: url('../img/wework.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-6 {
+    background-image: url('../img/splunk.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
 }
 
 /* MY DEBUG */
 .my-small-box {
   width: 100%;
-  height: 40px;
-  border: 2px solid black;
+  height: 50px;
 }
 
 .my-big-box {
