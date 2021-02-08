@@ -19,12 +19,16 @@
   text-align: left;
 }
 
+.vertical {
+  vertical-align: middle;
+}
+
 .underline {
   text-decoration: underline;
 }
 
 .grey {
-  background-color: lightgray;
+  background-color: hsl(220deg 33% 96%);
 }
 
 .lightblue {
@@ -128,9 +132,6 @@ font-size: 60px;
 }
 
 /* Logos */
-#logos {
-  background-color: hsl(220deg 33% 96%);
-}
 
 #logos [class*='col-'] {
   margin-bottom: 20px;
@@ -189,7 +190,7 @@ font-size: 60px;
   background-repeat: no-repeat;
 }
 
-
+/* Cluster */
 .my-cluster-main p {
   color: hsl(220deg 16% 48%);
 }
@@ -205,6 +206,29 @@ font-size: 60px;
   color: black;
 }
 
+/* Image Container */
+.my-img-container p {
+  color: hsl(220deg 16% 48%)
+}
+
+.my-img-container i {
+  margin-top: 300%;
+}
+
+.my-img-container img {
+  width: 100%;
+}
+
+.bubble {
+  display: inline;
+  border: 1px solid dodgerblue;
+  border-radius: 50%;
+  width: 10px;
+  height: 15px;
+  margin-bottom: 30px;
+}
+
+/* Features */
 #features [class*='col-'] {
   margin-bottom: 20px;
 }
