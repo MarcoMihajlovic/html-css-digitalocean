@@ -63,6 +63,24 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  animation-name: banner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes banner {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 a {
@@ -115,24 +133,7 @@ a:hover {
 .my-jumbotron {
   margin-top: 40px;
   color: white;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-  animation-name: banner;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes banner {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  background-color: hsl(223deg 100% 50%);
 }
 
 .my-jumbotron h1 {
@@ -229,12 +230,12 @@ font-size: 60px;
 
 /* Cluster */
 .my-cluster-main p {
-  color: hsl(220deg 16% 48%);
+  color: white;
 }
 
 .my-cluster-main h4 {
-  color: hsl(220deg 16% 48%);
-  border-left: 5px solid hsl(220deg 16% 48%);
+  color: white;
+  border-left: 5px solid white;
   padding: 10px 15px;
   margin: 0;
 }
@@ -272,7 +273,7 @@ font-size: 60px;
 }
 
 #features p {
-  color: hsl(220deg 16% 48%);
+  color: white;
 }
 
 /* Regions */
