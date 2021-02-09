@@ -1,0 +1,575 @@
+/* Utility */
+.padding-top {
+  padding-top: 30px;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.vertical {
+  vertical-align: middle;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.grey {
+  background-color: hsl(220deg 33% 96%);
+}
+
+.lightblue {
+  background-color: dodgerblue;
+}
+
+.blue {
+  background-color: hsl(221deg 100% 36%);
+}
+
+.darkblue {
+  background-color: hsl(220deg 93% 16%);
+}
+
+.padding-right-0 {
+  padding-right: 0;
+}
+
+.padding-left-0 {
+  padding-left: 0;
+}
+
+.border-bottom-none {
+  border-bottom: 0;
+}
+/* Fine Utility */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hsl(215deg 100% 50%);
+}
+/* Header-Nav */
+.my-header-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  background-color: white;
+}
+
+.my-header-nav img {
+  max-width: 100%;
+  max-height: 30px;
+  margin-top: 5px;
+}
+
+.my-header-nav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.my-header-nav i {
+ text-align: center;
+ font-size: 20px;
+}
+
+.my-header-nav .my-btn {
+  padding: 0 5px;
+  border: 2px solid hsl(216deg 100% 67%);
+  border-radius: 5px;
+  color: hsl(216deg 100% 67%);
+}
+
+/* Jumbotron */
+.my-jumbotron {
+  margin-top: 40px;
+  color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  animation-name: banner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes banner {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.my-jumbotron h1 {
+font-size: 60px;
+}
+
+.my-jumbotron p {
+  color: hsl(224deg 100% 86%);
+}
+
+.google-login {
+  background-color: white;
+  color: black;
+}
+
+.google-login-content {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.google-login input {
+  margin-bottom: 5px;
+}
+
+.google-login-content p {
+  color: black;
+  padding-bottom: 10px;
+}
+
+.google-login .btn {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Logos */
+
+#logos [class*='col-'] {
+  margin-bottom: 20px;
+}
+
+#logos img{
+  width: 100%;
+  max-height: 30px;
+}
+
+.logo-1 {
+  background-image: url('../img/docker.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-2 {
+  background-image: url('../img/GitLab.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-3 {
+  background-image: url('../img/slack.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-4 {
+  background-image: url('../img/hashicorp.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-5 {
+  background-image: url('../img/wework.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.logo-6 {
+  background-image: url('../img/splunk.svg');
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+/* Cluster */
+.my-cluster-main p {
+  color: hsl(220deg 16% 48%);
+}
+
+.my-cluster-main h4 {
+  color: hsl(220deg 16% 48%);
+  border-left: 5px solid hsl(220deg 16% 48%);
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.my-cluster-main .cluster-container h5 {
+  color: black;
+}
+
+/* Image Container */
+.my-img-container p {
+  color: hsl(220deg 16% 48%)
+}
+
+.my-img-container i {
+  margin-top: 300%;
+}
+
+.my-img-container img {
+  width: 100%;
+}
+
+.bubble {
+  display: inline;
+  border: 1px solid dodgerblue;
+  border-radius: 50%;
+  width: 10px;
+  height: 15px;
+  margin-bottom: 30px;
+}
+
+/* Features */
+
+#features [class*='col-'] {
+  margin-bottom: 20px;
+}
+
+#features p {
+  color: hsl(220deg 16% 48%);
+}
+
+/* Regions */
+#regions {
+  color: white;
+}
+
+ #regions strong, #regions p, #regions a {
+   font-size: 11px;
+ }
+
+#regions p {
+  color: hsl(222deg 48% 76%);
+}
+
+#regions a {
+  color: hsl(181deg 100% 41%);
+}
+
+#regions .row {
+  margin-top: 10px;
+}
+
+#regions .row .col-xs-3 {
+  text-align: right;
+}
+
+#regions .row:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+/* Footer Top */
+.my-footer-top h1 {
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.my-footer-top button {
+  color: hsl(215deg 100% 50%);
+}
+
+.my-footer-bottom p {
+  margin-top: 10px;
+  color: hsl(222deg 15% 67%);
+}
+
+/* Footer-Bottom */
+.my-footer-bottom ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.my-social li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.my-footer-bottom a {
+  color: hsl(222deg 15% 67%);
+}
+
+.my-footer-bottom h3 {
+  color: white;
+}
+
+.my-footer-bottom a:hover {
+  text-decoration: underline;
+  color: hsl(215deg 100% 50%);
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+
+  .padding-right-none {
+    padding-right: 0;
+  }
+
+  .padding-left-none {
+    padding-left: 0;
+  }
+
+  .my-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .logo-1 {
+    background-image: url('../img/docker.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-2 {
+    background-image: url('../img/GitLab.svg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-3 {
+    background-image: url('../img/slack.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-4 {
+    background-image: url('../img/hashicorp.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-5 {
+    background-image: url('../img/wework.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-6 {
+    background-image: url('../img/splunk.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .row .half {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .padding-top-md {
+    padding-top: 30px;
+  }
+
+  .my-footer-bottom li {
+    font-size: 12px;
+  }
+
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .padding-right-none {
+    padding-right: 0;
+  }
+
+  .padding-left-none {
+    padding-left: 0;
+  }
+
+  .logo-1 {
+    background-image: url('../img/docker.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-2 {
+    background-image: url('../img/GitLab.svg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-3 {
+    background-image: url('../img/slack.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-4 {
+    background-image: url('../img/hashicorp.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-5 {
+    background-image: url('../img/wework.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-6 {
+    background-image: url('../img/splunk.svg');
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  #regions strong, #regions p, #regions a {
+    font-size: 16px;
+  }
+
+}
+/* Phone */
+@media screen and (max-width: 767) {
+  .logo-1 {
+    background-image: url('../img/docker.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-2 {
+    background-image: url('../img/GitLab.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-3 {
+    background-image: url('../img/slack.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-4 {
+    background-image: url('../img/hashicorp.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-5 {
+    background-image: url('../img/wework.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .logo-6 {
+    background-image: url('../img/splunk.svg');
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .my-regions {
+    font-size: 10px;
+  }
+}
+
+/* MY DEBUG */
+.my-small-box {
+  width: 100%;
+  height: 50px;
+}
+
+.my-big-box {
+  width: 100%;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.my-mid-box {
+  width: 100%;
+  height: 120px;
+  border: 2px solid black;
+}
+
+.my-big-xl-box {
+  width: 100%;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
